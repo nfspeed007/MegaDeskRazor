@@ -51,7 +51,12 @@
             </div>
             <div class="form-group">
                 <label asp-for="Desk.rushOrder" class="control-label"></label>
-                <input asp-for="Desk.rushOrder" class="form-control" />
+                <select asp-for="Desk.rushOrder" class="form-control">
+                    <option value="rushOrder3">3</option>
+                    <option value="rushOrder5">5</option>
+                    <option value="rushOrder7">7</option>
+                    <option value="rushOrder14">14</option>
+                </select>
                 <span asp-validation-for="Desk.rushOrder" class="text-danger"></span>
             </div>
             <div class="form-group">
