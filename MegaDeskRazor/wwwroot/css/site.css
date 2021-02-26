@@ -18,8 +18,8 @@ a {
   border-color: #1861ac;
 }
 
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-  color: #fff;
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+  color: white;
   background-color: #1b6ec2;
   border-color: #1861ac;
 }
@@ -117,4 +117,8 @@ header {
 
 h1 {
     font-family: 'Roboto Mono', monospace;
+}
+
+.nav-link{
+    color: azure!important;
 }
