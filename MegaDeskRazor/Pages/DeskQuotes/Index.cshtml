@@ -13,6 +13,9 @@
 
 <form>
     <p>
+        <select asp-for="quoteDate" asp-items="Model.Dates">
+            <option value="">All</option>
+        </select>
         Search: <input type="text" asp-for="SearchString" />
         <input type="submit" value="Filter" />
     </p>

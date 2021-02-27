@@ -32,6 +32,30 @@ namespace MegaDeskRazor.Models
                         surfaceMaterial = "Rosewood",
                         rushOrder = "7",
                         DateAdded = DateTime.Parse("2021-02-25")
+                    },
+
+                    new Desk
+                    {
+                        customerName = "Test 1",
+                        width = 30.00,
+                        depth = 30.00,
+                        numberOfDrawers = 2,
+                        price = 1025.00M,
+                        surfaceMaterial = "Rosewood",
+                        rushOrder = "7",
+                        DateAdded = DateTime.Parse("2021-02-01")
+                    },
+
+                    new Desk
+                    {
+                        customerName = "Mic",
+                        width = 30.00,
+                        depth = 30.00,
+                        numberOfDrawers = 2,
+                        price = 1025.00M,
+                        surfaceMaterial = "Rosewood",
+                        rushOrder = "7",
+                        DateAdded = DateTime.Parse("2021-02-10")
                     }
 
                 );
